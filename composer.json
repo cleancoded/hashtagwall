@@ -1,0 +1,23 @@
+{
+    "name": "cleancoded/hashtagwall",
+    "type": "wordpress-plugin",
+    "authors": [
+        {
+            "name": "cleancoded",
+            "email": "james@cleancoded.com"
+        }
+    ],
+    "require": {
+        "freemius/wordpress-sdk": "^2.2",
+        "symfony/var-dumper": "^3.4"
+    },
+    "autoload": {
+        "files": [
+            "vendor/freemius/wordpress-sdk/start.php",
+            "inc/helpers.php",
+            "inc/TwitterAPIExchange.php",
+            "inc/admin-functions.php",
+            "inc/functions.php"
+        ]
+    }
+}
